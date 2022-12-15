@@ -1,0 +1,37 @@
+html{
+    padding: 0;
+    margin: 0;
+    background-color: rgb(228, 200, 254);
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin:10% 0;
+}
+
+#click-count{
+    font-size: 3rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(88, 3, 162);
+}
+.button button{
+    margin:20px;
+    padding:8px;
+    width:100px;
+    border-radius:8px;
+    background: none;
+    background-color: rgb(192, 131, 249);
+    color:rgb(248, 246, 192);
+    font-weight: 900;
+}
+.button button:hover{
+    background-color: rgb(151, 47, 248);
+}
+
+.button button:active{
+    background-color: rgb(80, 11, 145);
+}
+
+
